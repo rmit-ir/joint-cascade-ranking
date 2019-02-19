@@ -1,0 +1,3 @@
+[submodule "ext/cegb"]
+	path = ext/cegb
+	url = git@github.com:rmit-ir/LightGBM-CEGB.git
