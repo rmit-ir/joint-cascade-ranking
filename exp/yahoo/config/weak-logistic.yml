@@ -1,0 +1,47 @@
+lgbm: {boosting_type: cegb, indicator_type: logistic, objective: lambdarank,
+  sigma: 0.5, silent: false}
+score_type: weak
+chained_stopping: false
+stages:
+- cegb_independent_branches: false
+  cegb_penalty_feature_lazy: None
+  cegb_penalty_split: 0.0
+  cegb_predict_lazy: true
+  cegb_tradeoff: 0.0001
+  colsample_bytree: 0.5
+  cutoff: 10
+  early_stopping_rounds: 30
+  learning_rate: 0.05
+  max_depth: -1
+  metric: ndcg
+  ndcg_eval_at: [139]
+  num_leaves: 15
+  num_trees: 2000
+- cegb_independent_branches: false
+  cegb_penalty_feature_lazy: None
+  cegb_penalty_split: 0.0
+  cegb_predict_lazy: true
+  cegb_tradeoff: 1.0e-05
+  colsample_bytree: 0.5
+  cutoff: 5
+  early_stopping_rounds: 30
+  learning_rate: 0.05
+  max_depth: -1
+  metric: ndcg
+  ndcg_eval_at: [139]
+  num_leaves: 15
+  num_trees: 2000
+- cegb_independent_branches: false
+  cegb_penalty_feature_lazy: None
+  cegb_penalty_split: 0.0
+  cegb_predict_lazy: true
+  cegb_tradeoff: 1.0e-05
+  colsample_bytree: 0.5
+  cutoff: 0
+  early_stopping_rounds: 30
+  learning_rate: 0.05
+  max_depth: -1
+  metric: ndcg
+  ndcg_eval_at: [139]
+  num_leaves: 31
+  num_trees: 2000

@@ -1,3 +1,6 @@
 [submodule "ext/cegb"]
 	path = ext/cegb
 	url = git@github.com:rmit-ir/LightGBM-CEGB.git
+[submodule "ext/trec-web-2013"]
+	path = ext/trec-web-2013
+	url = https://github.com/lgrz/trec-web-2013.git

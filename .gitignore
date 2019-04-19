@@ -1,0 +1,15 @@
+.cache
+__pycache__
+local.mk
+local.sh
+eval/rbp_eval
+eval/gdeval.pl
+exp/mslr/*.qrels
+exp/mslr/result
+exp/mslr/MSLR-WEB10K
+exp/yahoo/result
+exp/yahoo/set1.test.qrels
+exp/yahoo/set1.test.txt
+exp/yahoo/set1.train.txt
+exp/yahoo/set1.valid.txt
+ext/rbp_eval-0.2
