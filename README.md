@@ -47,8 +47,8 @@ Cascade Ranking Models_, WSDM 19.
     Install Python dependencies:
 
     ```sh
-    pip install -r requirements.txt
-    pip install -e ext/cegb/python-package
+    $ pip install -r requirements.txt
+    $ pip install -e ext/cegb/python-package
     ```
 
 4. Configure Datasets
