@@ -26,7 +26,7 @@ Cascade Ranking Models_, WSDM 19.
 
 3. Build/Install Dependencies
 
-    Build CEGB (note CEGB was recently added to [LightGBM core][lgbm] after the
+    Build CEGB (note CEGB was added to [LightGBM core][lgbm] after the
     publication of this work):
 
     ```sh
