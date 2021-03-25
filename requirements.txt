@@ -1,6 +1,6 @@
 joblib==0.13.2
 numpy==1.16.3
-PyYAML==5.1
+PyYAML==5.4
 scikit-learn==0.21.0
 scipy==1.2.1
 sklearn==0.0
